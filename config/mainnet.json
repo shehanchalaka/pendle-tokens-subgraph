@@ -1,0 +1,7 @@
+{
+  "network": "mainnet",
+  "pendleTokenAddress": "0x808507121B80c02388fAd14726482e061B8da827",
+  "pendleTokenStartBlock": "12320098",
+  "pendleDataAddress": "0xE8A6916576832AA5504092C1cCCC46E3bB9491d6",
+  "pendleDataStartBlock": "12638042"
+}

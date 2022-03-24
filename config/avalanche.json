@@ -1,0 +1,7 @@
+{
+  "network": "avalanche",
+  "pendleTokenAddress": "0xfB98B335551a418cD0737375a2ea0ded62Ea213b",
+  "pendleTokenStartBlock": "6161073",
+  "pendleDataAddress": "0x94D7E5c48Ca9627001FACb04D1820C54dFf3032c",
+  "pendleDataStartBlock": "6725074"
+}

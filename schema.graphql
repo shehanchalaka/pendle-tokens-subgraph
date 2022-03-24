@@ -1,5 +1,28 @@
-type ExampleEntity @entity {
+type Token @entity {
   id: ID!
-  count: BigInt!
-  _blockDelta: BigInt! # uint256
+  name: String!
+  symbol: String!
+  decimals: BigInt!
+}
+
+type User @entity {
+  id: ID!
+}
+
+type Transfer @entity {
+  id: ID!
+  hash: String!
+  token: Token!
+  from: User!
+  to: User!
+  value: BigDecimal!
+}
+
+type UserToken @entity {
+  id: ID!
+  user: User!
+  token: Token!
+  totalSent: BigDecimal!
+  totalReceived: BigDecimal!
+  balance: BigDecimal!
 }
